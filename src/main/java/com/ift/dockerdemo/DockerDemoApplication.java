@@ -20,6 +20,6 @@ public class DockerDemoApplication {
 
     @GetMapping("/test")
     public String test() {
-        return UUID.randomUUID().toString();
+        return "uuid:" + UUID.randomUUID().toString();
     }
 }
