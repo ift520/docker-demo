@@ -60,7 +60,7 @@
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>1.2.0</version>
                 <configuration>
-                    <imageName>${build.finalName}</imageName>
+                    <imageName>registry.cn-hangzhou.aliyuncs.com/ift-test/${build.finalName}</imageName>
                     <imageTags>
                         <imageTag>${project.version}</imageTag>
                         <imageTag>latest</imageTag>
